@@ -9,11 +9,10 @@ I easily loaded the ajacency matrix into R, but used `hRU` to convert the edge l
 
 Dataset Exercises
 1. Write an R script to load the network and attribute data into two objects: adjacency matrix, and vector.
-      Adjacency matrix with network data, check!  
-      Vector with attribute data, check!
+   [x] Adjacency matrix with network data  
+   [x] Vector with attribute data
 
 2. Create a visualization of this network, with node colors.
-      ![Pol Net Visualization](/pol_net.jpeg)
-   
+   ![Pol Net Visualization](/pol_net.jpeg)
    `Node colors: White denotes liberals, black denotes moderates, and red denotes conservatives.`
 
