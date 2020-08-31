@@ -8,6 +8,7 @@ install.packages("sna")
 library("sna")
 load("./hRU_v2019_04_17.RData")
 
+<<<<<<< HEAD
 # Load adjacency matrix
 pol_net <- read.csv("politicalnetworkmatrix.csv")
 pol_net <- as.matrix(pol_net)
@@ -16,12 +17,26 @@ is.matrix(pol_net)
 # OR generate ajacency matrix from edge list
 pol_net <- as.matrix( Get_Adjacency_From_File( "edgelist_pol.csv", EdgeListQ=TRUE, CSVQ=TRUE, MakeUndirectedQ=TRUE, VisualizeQ=FALSE ) )
 
+=======
+#
+
+# Load adjacency matrix
+politicalnetworks <- read.csv("politicalnetworkmatrix.csv")
+politicalnetworks<- as.matrix(politicalnetworks)
+rownames(politicalnetworks) <- colnames(politicalnetworks)
+is.matrix(politicalnetworks)
+
+# Generate ajacency matrix from edge list
+pol_net <- as.matrix( Get_Adjacency_From_File( "edgelist_pol.csv", EdgeListQ=TRUE, CSVQ=TRUE, MakeUndirectedQ=TRUE, VisualizeQ=FALSE ) )
+
+>>>>>>> 91cb0dda694af5be52057ca44f881012450ca76d
 Visualize_Network(pol_net, FALSE)
 
 # Load attributes
 pol_net_attributes <- read.csv("attributes_pol.csv", header=FALSE)
 colnames(pol_net_attributes) <- c("node","ideology")
 Visualize_Network(pol_net, FALSE, vertex_colors=pol_net_attributes$ideology)
+<<<<<<< HEAD
 
 # ideology attributes <1 are unable to be displayed
 pol_net_attributes[pol_net_attributes==1] <- 2
@@ -33,3 +48,5 @@ Visualize_Network(pol_net, FALSE, vertex_colors=pol_net_attributes$ideology)
 jpeg(file="pol_net.jpeg")
 Visualize_Network(pol_net, FALSE, vertex_colors=pol_net_attributes$ideology)
 dev.off()
+=======
+>>>>>>> 91cb0dda694af5be52057ca44f881012450ca76d
