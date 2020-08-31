@@ -14,6 +14,5 @@ Dataset Exercises
 
 2. Create a visualization of this network, with node colors.
       ![Pol Net Visualization](/pol_net.jpeg)
-   
-   `Node colors: White denotes liberals, black denotes moderates, and red denotes conservatives.`
+      `Node colors: White denotes liberals, black denotes moderates, and red denotes conservatives.`
 
