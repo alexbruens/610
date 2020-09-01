@@ -9,8 +9,8 @@ I easily loaded the ajacency matrix into R, but used `hRU` to convert the edge l
 ### Dataset Exercises
 1. Write an R script to load the network and attribute data into two objects: adjacency matrix, and vector.
    - [x] Adjacency matrix with network data  
-   - [x] Vector with attribute data
-   Link to [R script file](../master/lab1script.R)
+   - [x] Vector with attribute data  
+   'Link to [R script file](../master/lab1script.R)'
 
 2. Create a visualization of this network, with node colors.
    ![Pol Net Visualization](/pol_net.jpeg)  
