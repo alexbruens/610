@@ -1,8 +1,7 @@
 # 610 Class Materials
 Course materials for POL 610 - Political Network Analysis
 
-## Lab #1
-Hypothetical Political Discussion Assignment
+## Lab #1 -- Hypothetical Political Discussion Assignment
 
 First, I created an [edge list](../master/edgelist_pol.csv), only after I created a superfluous (*and time consuming*) adjacency matrix ([CSV](../master/politicalnetworkmatrix.csv), [XLSX](../master/politicalnetworkmatrix.xlsx)).
 I easily loaded the ajacency matrix into R, but used `hRU` to convert the edge list into a matrix.
@@ -35,3 +34,6 @@ I easily loaded the ajacency matrix into R, but used `hRU` to convert the edge l
 10. What extent is shared ideology correlated with discussion?
 
 11. Estimate degree to which shared ideology, and other factors, determine the structure of the network.
+
+## Lab #2 -- Risk Professionals
+TBA
