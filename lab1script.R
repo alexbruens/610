@@ -1,7 +1,6 @@
 # Alex Bruens
-# POL 610
 # Probelm Set/Lab 1
-# August 2020
+# August 31, 2020
 
 library("readxl")
 install.packages("sna")
@@ -44,3 +43,5 @@ Visualize_Network(pol_net, FALSE, vertex_colors=pol_net_attributes$ideology)
 jpeg(file="pol_net.jpeg")
 Visualize_Network(pol_net, FALSE, vertex_colors=pol_net_attributes$ideology)
 dev.off()
+
+###
